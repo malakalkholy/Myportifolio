@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+color:#999999
+width:1070.72px;
+height:90.74px;
+margin: 55.5px 0px 0px 0px;
+
+}
+
+ul{
+list-style-type:none;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+nav a{
+font:  'Josefin Slab',serif regular; ;
+color: #999999; 
+text-decoration: none;
+letter-spacing: 1px;
+opacity: 0.8; 
+}
+
+body{
+    background-color: #CDF8F7;
+}
+
+#myimg{
+    width: 151px;
+    height: 158px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:#8ad4d3 solid 3px;
+    
+}
+
+h2{
+    text-align: center;
+    font-family:  serif;
+    color: DeepSkyBlue;
+    opacity: 0.4;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+
+p{
+     text-align: center;
+       font-family: "Castoro", serif;
+       font-size: 11px; 
+       margin-top: 30px;
+       color: DeepPink;
+       opacity: 0.4;
+}
+
+#myinfo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#projects h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#contact h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#contact p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#projects li{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Castoro", serif;
+    font-size: 12.5px; 
+    color: #999999;
+    opacity: 0.8;
+    margin-left: 20px;
+}
+
+#projects ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+    list-style-type: disc;
+    margin-left: 20px;
+    
+}
